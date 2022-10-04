@@ -1,0 +1,18 @@
+
+How do I create a hidden file or folder? How do I display it in the CLI?
+
+By adding (.) to to the name of the file or folder. In bash, mv command will rename a file easily.
+So, `mv unhidden-file.txt .hidden-file.txt` will do the trick.
+The command `ls -a` will display all files including hidden ones. 
+
+
+How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+A `-p` tag will create parent directories if they don't exit.
+`mkdir -p /c/Users/myusername/these/folders/are just/for/fun` will do it 
+
+How do I append a message to a file, without a newline character, so the output would be:
+
+`echo` will print the new text into the source.
+`echo "second message" >> file.txt`
+
