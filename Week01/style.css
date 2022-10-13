@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    box-shadow: 30px 0px 40px #ccc, -30px 0px 40px #ccc;
+    margin: auto;
+    max-width: 60%;
+}
+
+header {
+    box-shadow: 30px 0px 40px #ccc, -30px 0px 40px #ccc;
+    margin: auto;
+    max-width: 60%;
+    padding-left: 2rem; 
+    min-height: 60%;
+    color: white;
+    background-color: rgb(93, 94, 95);
+    overflow: hidden;
+}
+
+.photo {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+}
+
+.career {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 1.25rem;
+    margin-left: 2rem;
+}
+
+.about {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.about dt {
+    letter-spacing: .1rem;
+    padding-bottom: .25rem;
+}
+
+.about dd {
+    letter-spacing: .1rem;
+    padding-bottom: .25rem;
+}
+
+.info {
+    white-space: nowrap;
+    width: 100%;
+    height: 1.5rem;
+}
+
+.section-left {
+    background-color: #fff;
+    float: left;
+    width: 25rem;
+}
+
+.section-right {
+    background-color: #fff;
+    float: right;
+    width: 25rem;
+}
+
+h2 {
+    margin-left: 10%;
+    color: rgb(93, 94, 95);
+    letter-spacing: .1rem;
+    font-size: 1rem;
+}
+
+hr.line {
+    border-top: 2px solid rgb(93, 94, 95);
+    width: 90%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    margin-left: 10%;
+}
+
+.bulletPoint {
+    margin-left: 10%;
+}
+
+.techskills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.75rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+@media all and (min-width: 500px) {
+    .description {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+}
